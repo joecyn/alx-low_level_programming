@@ -1,6 +1,2 @@
 #!/bin/bash
-# set the C file name
-CFILE="main.c"
-# compile the C file without linking
 gcc -c $CFILE -o ${CFILE%.c}.o
-
