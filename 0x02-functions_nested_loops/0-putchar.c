@@ -1,11 +1,21 @@
-#include<main.h>
+#include "main.h"
 /**
- * main - Check if a number is greater than 0
- * Return: 1 if the number is positive. 0 otherwise
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
+
 int main(void)
 {
-	fputs("_putchar\n");
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
 
